@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <main className="w-svw h-svh flex justify-center items-center">
-      <section className="flex flex-col gap-2 px-10 py-6 h-[60svh] w-[60svw] bg-zinc-900 pb-20">
+      <section className="flex flex-col gap-2 px-10 py-6 h-[60svh] w-[60svw] content bg-zinc-900 pb-20">
         <header>
           <h1 className="font-bold text-white text-xl">Insert a text:</h1>
         </header>
@@ -53,14 +53,14 @@ export default function Home() {
             value={inputValue}
             onChange={handleInputChange}
             onKeyUp={handleKeyPress}
-            className="border-green-500 border w-[40svw] rounded-lg text-white px-2.5 py-1.5 focus:outline-0"
+            className="border-green-500 border w-[40svw] rounded-lg text-white px-2.5 py-1.5 focus:outline-0 input"
             placeholder="text"
             id="text"
             type="text"
           />
           <button
             onClick={speak}
-            className="bg-green-500 rounded-lg cursor-pointer w-[40svw] font-bold text-white py-1.5 px-2.5"
+            className="bg-green-500 rounded-lg button cursor-pointer w-[40svw] font-bold text-white py-1.5 px-2.5"
             id="submit"
           >
             submit

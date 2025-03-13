@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -22,5 +22,33 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
+}
+@media (max-width: 575.98px) {
+  .content {
+    width: 90svw;
+    height: 46svh;
+    gap: 40px;
+  }
+  /* Ajusta otros estilos aquí */
+}
+
+/* Dispositivos pequeños (móviles en landscape, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .content {
+    width: 90svw;
+    height: 46svh;
+    gap: 40px;
+  }
+  /* Ajusta otros estilos aquí */
+}
+
+/* Dispositivos medianos (tablets, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .content {
+    width: 80svw;
+    height: 46svh;
+    gap: 40px;
+  }
+  /* Ajusta otros estilos aquí */
 }
