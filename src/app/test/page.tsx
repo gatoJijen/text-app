@@ -1,4 +1,5 @@
 "use client"
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -69,3 +70,4 @@ export default function Home() {
     </main>
   );
 }
+/* eslint-disable @typescript-eslint/no-explicit-any */
