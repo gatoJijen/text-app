@@ -30,6 +30,12 @@ body {
     height: 46svh;
     gap: 40px;
   }
+  .input {
+    width: 65svw;
+  }
+  .button {
+    width: 65svw;
+  }
   /* Ajusta otros estilos aquí */
 }
 
@@ -40,6 +46,12 @@ body {
     height: 46svh;
     gap: 40px;
   }
+  .input {
+    width: 60svw;
+  }
+  .button {
+    width: 60svw;
+  }
   /* Ajusta otros estilos aquí */
 }
 
@@ -49,6 +61,12 @@ body {
     width: 80svw;
     height: 46svh;
     gap: 40px;
+  }
+  .input {
+    width: 55svw;
+  }
+  .button {
+    width: 55svw;
   }
   /* Ajusta otros estilos aquí */
 }
